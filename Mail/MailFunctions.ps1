@@ -1,4 +1,5 @@
 <# SEND MAIL VIA SMTP
+Author: Giuseppe Malandrone
 Description: Sends a mail via SMTP protocol with parameters passed as input
 Input: $SMTPServer, $SenderMailAddress, $SenderMailPassword, $SenderName, $RecipientMailAddress, $Subject,  $Body 
 Output: -
