@@ -1,4 +1,5 @@
 <# CREATE SCHEDULED TASK
+Author: Giuseppe Malandrone
 Description: Creates a Windows scheduled task to execute a program with parameters passed as input 
 Input: $TaskName, $Description, $Frequency, $Day, $Time, $Program, $Argument, $WorkingDirectory
 Output: -
@@ -56,6 +57,7 @@ return
 }
 
 <# DELETE SCHEDULED TASK
+Author: Giuseppe Malandrone
 Description: Deletes an existing Windows scheduled task
 Input: $TaskName
 Output: -

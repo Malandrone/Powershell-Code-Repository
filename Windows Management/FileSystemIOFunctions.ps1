@@ -1,4 +1,5 @@
 <# DISPLAY DIALOG WINDOW FILE
+Author: Giuseppe Malandrone
 Description: Displays a dialog window to set an input file path
 Input: -
 Output: $InputFile
@@ -16,6 +17,7 @@ return $InputFile
 }
 
 <# DISPLAY DIALOG WINDOW FOLDER
+Author: Giuseppe Malandrone
 Description: Displays a dialog window to set an input folder path
 Input:  -
 Output: $InputFolder
