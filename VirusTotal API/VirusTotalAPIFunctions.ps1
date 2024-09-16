@@ -1,4 +1,5 @@
 <# GET VIRUS TOTAL FILE REPORT
+Author: Giuseppe Malandrone
 Description: Takes as an input a hash and a VirusTotal API key and checks its reputation returning a report
 Input: $Hash, $VTApiKey
 Output: $VTReport
@@ -43,6 +44,7 @@ function GetVirusTotalFileReport {
 }
 
 <# GET VIRUS TOTAL IP REPORT
+Author: Giuseppe Malandrone
 Description: Takes as an input an IP address and a VirusTotal API key and checks its reputation returning a report
 Input: $IP, $VTApiKey
 Output: $VTReport
