@@ -1,0 +1,6 @@
+$ColumnsArray = @("column1", "column2", "column3")
+$Record       = @("valore1", "valore2", "valore3")
+$DBPath = "LiteDB\Repository.db"
+$Table = "Table1"
+Add-Type -Path "LiteDB\litedb.5.0.19\lib\net45\LiteDB.dll"
+$CsvPath = "output.csv"
